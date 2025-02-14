@@ -1,0 +1,103 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "description": " Segmentation",
+    "file_ending": ".nii.gz",
+    "labels": {
+        "background": 0,
+        "kidney": 2,
+        "liver": 3,
+        "pancreas": 1
+    },
+    "licence": "see challenge website",
+    "name": "OAR",
+    "numTest": 0,
+    "numTraining": 20,
+    "reference": "see challenge website",
+    "release": "0.0",
+    "tensorImageSize": "3D",
+    "test": [],
+    "training": [
+        {
+            "image": "./imagesTr/UKCHLL001.nii.gz",
+            "label": "./labelsTr/UKCHLL001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL002.nii.gz",
+            "label": "./labelsTr/UKCHLL002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL009.nii.gz",
+            "label": "./labelsTr/UKCHLL009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL011.nii.gz",
+            "label": "./labelsTr/UKCHLL011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL015.nii.gz",
+            "label": "./labelsTr/UKCHLL015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL017.nii.gz",
+            "label": "./labelsTr/UKCHLL017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL021.nii.gz",
+            "label": "./labelsTr/UKCHLL021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL023.nii.gz",
+            "label": "./labelsTr/UKCHLL023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL031.nii.gz",
+            "label": "./labelsTr/UKCHLL031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL034.nii.gz",
+            "label": "./labelsTr/UKCHLL034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL035.nii.gz",
+            "label": "./labelsTr/UKCHLL035.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL037.nii.gz",
+            "label": "./labelsTr/UKCHLL037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL038.nii.gz",
+            "label": "./labelsTr/UKCHLL038.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL039.nii.gz",
+            "label": "./labelsTr/UKCHLL039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL041.nii.gz",
+            "label": "./labelsTr/UKCHLL041.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL042.nii.gz",
+            "label": "./labelsTr/UKCHLL042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL043.nii.gz",
+            "label": "./labelsTr/UKCHLL043.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL045.nii.gz",
+            "label": "./labelsTr/UKCHLL045.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL046.nii.gz",
+            "label": "./labelsTr/UKCHLL046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/UKCHLL048.nii.gz",
+            "label": "./labelsTr/UKCHLL048.nii.gz"
+        }
+    ]
+}
